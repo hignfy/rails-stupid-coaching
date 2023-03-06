@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+  padding-left: 50px;
+ }
+
+ .your-class {
+  background-color: white;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  border: .7rem solid grey;
+  border-width: 0 0 0 .7rem;
+}
+
+.coach-class {
+  background-color: lightyellow;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  border: .7rem solid grey;
+  border-width: 0 0 0 .7rem;
+}
+
+.link {
+  width: 200px;
+  text-align: left;
+  font-size: small-font-size;
+  padding-left: 50px;
+}
